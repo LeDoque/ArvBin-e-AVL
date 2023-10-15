@@ -1,10 +1,9 @@
 public class Node {
-    int valor;
-    int altura;
-    Node left;
-    Node right;
+    int key, altura;
+    Node esquerda, direita;
 
-    public Node (int valor){
-        this.valor = valor;
+    Node(int d) {
+        key = d;
+        altura = 1;
     }
 }
